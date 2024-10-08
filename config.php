@@ -13,13 +13,22 @@ function cekLogin(){
 // Database Setting
 include_once 'lib/MysqliDb.php';
 
+// $db_config = [
+// 	'host' => 'localhost',
+// 	'username' => 'root',
+// 	'password' => '',
+// 	'db' => 'spukm',
+// 	'port' => 3306,
+// 	'charset' => 'utf8'
+// ];
+
 $db_config = [
-	'host' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'db' => 'spukm',
-	'port' => 3306,
-	'charset' => 'utf8'
+    'host' => 'mysql-banksampah-obethpamokol-c67c.i.aivencloud.com',
+    'username' => 'avnadmin',
+    'password' => 'AVNS_59D_waRMYZoCawTaLBQ',
+    'db' => 'banksampah',
+    'port' => 22169,
+    'charset' => 'utf8'
 ];
 
 $db = new MysqliDb($db_config);
