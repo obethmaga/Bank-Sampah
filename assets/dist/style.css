@@ -1,0 +1,136 @@
+.mr-0 { margin-right: 0;}
+.mr-1 { margin-right: 0.5em;}
+.mr-2 { margin-right: 0.10em;}
+.mr-3 { margin-right: 0.15em;}
+.mr-4 { margin-right: 0.20em;}
+
+.login-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-login {
+  width: 300px;
+  /* height: 250px; */
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-mini.sidebar-collapse .sidebar-header {
+  display: none !important;
+  -webkit-transform: translateZ(0);
+}
+
+.btn-no-style {
+	border: 0;
+	background: transparent;
+	padding: 0;
+	color: #3c8dbc;
+}
+
+.canvas-container {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+}
+
+.canvas-nav {
+	width: 250px;
+}
+
+.canvas-map{
+	width:850px;
+	padding: 0 0 0 10px;
+}
+
+.canvas-details {
+	transition: transform 1s;
+	position: absolute;
+	width: 300px;
+	height: 500px;
+	right: 0;
+	padding: 20px 20px 20px 10px;
+}
+
+.canvas-details.collapsed {
+	transform: translate(300px);
+}
+
+.details-content {
+	position: relative;
+	background: white;
+	border-radius: 3px;
+	overflow: hidden;
+	height: 100%;
+	box-shadow: 0 5px 10px 0px rgba(0,0,0,.40);
+}
+
+.details-content-inner {
+	
+}
+
+.details-close {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	background: rgba(255,255,255,.75);
+	color: gray;
+	text-align: center;
+	border-radius: 100%;
+	top: 10px;
+	right: 10px;
+}
+
+.details-close:hover {
+	background: red;
+	color: white;
+}
+
+.details-title {
+	font-weight: bold;
+}
+
+.details-section{
+	padding: 5px 0;
+}
+
+.details-section strong {
+	display: block;
+	font-size: 12px;
+	color: gray;
+}
+
+.list-container {
+	border: 1px solid #ccc;
+	height: 325px;
+	overflow-y: scroll;
+}
+
+a.list-item {
+	display: block;
+	padding: 5px 10px;
+	cursor: pointer;
+	color: gray;
+}
+
+a.list-item:not(:last-child){
+	border-bottom: 1px solid #ccc;
+}
+
+a.list-item:hover{
+	color: black;
+	background-color: #eee;
+}
+
+a.list-item.active {
+	background-color: #07a;
+	color: white;
+}
